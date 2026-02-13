@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  height: 100vh;
+  background: linear-gradient(135deg, #16a34a, #14532d);
+  padding: 20px;
+}
+
+.profile-card {
+  background: #ffffff;
+  width: 420px;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+}
+
+.profile-title {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #14532d;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.profile-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.label {
+  font-weight: 600;
+  color: #374151;
+}
+
+.value {
+  color: #16a34a;
+  font-weight: 500;
+}
